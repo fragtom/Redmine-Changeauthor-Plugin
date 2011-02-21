@@ -1,3 +1,5 @@
 # German locale strings go here for Rails i18n
 de:
   button_authorchange: "Autor ändern"
+  label_authorchange: "Autor von diesem Ticket ist "
+  head_authorchange: "Ändere derzeitigen Autor in "

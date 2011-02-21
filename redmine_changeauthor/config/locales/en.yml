@@ -1,3 +1,5 @@
 # English strings go here for Rails i18n
 en:
   button_authorchange: "Change Author"
+  label_authorchange: "Current Author is "
+  head_authorchange: "Change current Author to "
