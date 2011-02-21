@@ -1,13 +1,13 @@
 <h2><%=h @issue["subject"].to_s %></h2>
 
-<p>Autor von diesem Ticket ist 
+<p><%=l(:label_authorchange) %>
 	<em>
 		<%=@issue_user["firstname"].to_s+" "+@issue_user["lastname"].to_s%>
 	</em>
 </p>
 <% form_for :changeauthor, @issue, :url => { :action => "edit" } do |f| %> 
 <p>
-	<h3>Autor Ändern in</h3>
+	<h3><%=l(:head_authorchange) %></h3>
 	
 	<%= hidden_field_tag "issue_id", +@issue["id"] %>
 	
@@ -16,7 +16,7 @@
 	</select>
 </p>
 
-<%= submit_tag("speichern", :class => 'button-small')-%>
+<%= submit_tag(l(:button_save), :class => 'button-small')-%>
 
 <% end %>
 
