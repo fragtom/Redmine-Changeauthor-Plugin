@@ -3,3 +3,6 @@ en:
   button_authorchange: "Change Author"
   label_authorchange: "Current Author is "
   head_authorchange: "Change current Author to "
+  label_authorchange_setlog: "log in issue history? "
+  label_authorchange_setlog_description: "Changes will be logged in history of that issue"
+  

@@ -3,3 +3,6 @@ de:
   button_authorchange: "Autor ändern"
   label_authorchange: "Autor von diesem Ticket ist "
   head_authorchange: "Ändere derzeitigen Autor in "
+  label_authorchange_setlog: "Änderung in Issue-History loggen? "
+  label_authorchange_setlog_description: "Alle Änderungen werden in der Bearbeitungshistorie des Tickets nachvollziehbar geloggt"
+  
