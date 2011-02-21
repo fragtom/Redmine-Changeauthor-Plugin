@@ -1,0 +1,9 @@
+<p>
+  <%= label_tag "redmine_changeauthor_log_setting", l(:label_authorchange_setlog) %>
+  <%=
+    select_tag 'settings[redmine_changeauthor_log_setting]', options_for_select([
+      ['no', 'no'],
+      ['yes', 'yes'],
+    ], @settings['redmine_changeauthor_log_setting'])  %>
+   <%=l(:label_authorchange_setlog_description) %>
+</p>
