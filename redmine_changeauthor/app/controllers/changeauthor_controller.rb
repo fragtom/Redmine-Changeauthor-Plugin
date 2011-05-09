@@ -21,7 +21,14 @@ class ChangeauthorController < ApplicationController
     @issue=Issue.find_by_id(params[:issue_id])
     
     if @issue.update_attribute(:author_id, params[:authorid])
+    
       flash[:notice] = l(:notice_successful_update)
+      
+# TODO add log in history here
+#      flash[:notice] = "??? "
+#      call_hook(:controller_redmine_changeauthor_edit_after_save, { :author_id => params[:authorid], :issue => @issue })
+      
+      
       redirect_to :controller => "issues", :action => "show", :id => params[:issue_id]
     else
       redirect_to :controller => "changeauthor", :action => "edit", :id => params[:issue_id]
