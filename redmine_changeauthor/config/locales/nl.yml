@@ -1,0 +1,7 @@
+nl:
+  button_authorchange: "Verander Auteur"
+  label_authorchange: "Huidige auteur is "
+  head_authorchange: "Verander huidige auteur naar "
+  label_authorchange_setlog: "Wijzigingen tonen in de geschiedenis? "
+  label_authorchange_setlog_description: "Veranderingen zullen worden weergegeven in de geschiedenis van de ticket"
+
