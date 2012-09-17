@@ -1,0 +1,6 @@
+zh:
+button_authorchange: "更改作者"
+label_authorchange: "当前作者是"
+head_authorchange: "把作者改为"
+label_authorchange_setlog: "记录到问题历史? "
+label_authorchange_setlog_description: "作者更改将会记录到该问题历史里"
