@@ -1,4 +1,4 @@
-ActionController::Routing::Routes.draw do |map|
-  map.connect '/changeauthor/index', :controller => 'changeauthor', :action => 'index'
-  map.connect '/changeauthor/edit', :controller => 'changeauthor', :action => 'edit'
+RedmineApp::Application.routes.draw do 
+  get '/changeauthor/index', :to => 'changeauthor#index'
+  post '/changeauthor/edit', :to => 'changeauthor#edit'
 end
